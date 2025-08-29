@@ -28,7 +28,10 @@ source_suffix = {
 }
 
 # Master document (homepage)
-master_doc = 'index'
+master_doc = 'index'            # The filename (no extension) of the master document
+source_suffix = {
+    '.rst': None,             # or '.md' if you use MyST
+}
 
 # List of patterns to ignore when looking for source files
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
