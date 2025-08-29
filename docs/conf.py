@@ -50,7 +50,7 @@ intersphinx_mapping = {
 html_theme = 'alabaster'        # or 'furo', 'pydata_sphinx_theme', etc.
 
 # Static files (CSS overrides, images, etc.)
-html_static_path = ['_static']
+#html_static_path = ['_static']
 
 # Custom CSS file (create _static/custom.css if you want styling tweaks)
 html_css_files = ['custom.css']
