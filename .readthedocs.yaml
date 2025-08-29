@@ -9,3 +9,10 @@ build:
   os: ubuntu-24.04
   tools:
     python: "3.13"
+
+sphinx:
+  configuration: docs/conf.py  # <-- REQUIRED; adjust the path if your conf.py is elsewhere
+
+python:
+  install:
+    - requirements: docs/requirements.txt
