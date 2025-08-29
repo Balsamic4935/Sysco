@@ -1,1 +1,33 @@
+# Project info
+site_name: 'My Awesome Docs'
+site_description: 'Documentation for my awesome project.'
+site_author: 'Your Name'
+site_url: 'https://myproject.readthedocs.io'
+
+# Where your Markdown files live
+docs_dir: 'docs'
+
+# Navigation tree
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - User Guide:
+      - Overview: user-guide/index.md
+      - Configuration: user-guide/config.md
+  - API Reference: api.md
+  - About: about.md
+
+# Theme
+theme:
+  name: 'readthedocs'  # Built-in theme that matches Read the Docs style
+  highlightjs: true
+
+# Extensions / plugins
+markdown_extensions:
+  - admonition
+  - codehilite
+
+# Optional Read the Docs–specific build settings
+extra:
+  version: 'latest'
 
